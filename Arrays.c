@@ -4,8 +4,6 @@
 #include <ctype.h>
 
 char tildeA = 160;
-char tildeE = 130;
-char tildeI = 161;
 char tildeO = 162;
 char tildeU = 163;
 

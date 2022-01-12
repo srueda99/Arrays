@@ -8,27 +8,14 @@
 #include <ctype.h>
 #include "funciones.h"
 
-//Menú
+//MenÃº
 
 int op = 1;
 
 void main() {
 	while (op != 0) {
-		printf("\n\n\nMEN%c PRINCIPAL\n", 233);
-		puts("*********************************");
-		printf("Elija la opci%cn:\n", tildeO);
-		printf("1: Convertir a may%csculas\n", tildeU);
-		printf("2: Convertir a min%csculas\n", tildeU);
-		printf("3: May%csculas y min%csculas intercaladas\n", tildeU, tildeU);
-		puts("4: Reemplazar letra");
-		puts("5: Ejecutar comando");
-		puts("6: Validar IP");
-		puts("7: Convertir a ASCII");
-		printf("8: Generar un n%cmero aleatorio\n", tildeU);
-		puts("9: Concatenar palabras");
-		puts("0: Salir");
-		puts("*********************************");
 		
+		printMenu();
 		scanf("%d", &op);
 		
 		switch(op) {

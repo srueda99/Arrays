@@ -17,6 +17,7 @@ char tildeU = 163;
 
 //Funciones
 
+void printMenu();
 void caps(char word[20]);
 void low(char word[20]);
 void mix(char word[20]);
